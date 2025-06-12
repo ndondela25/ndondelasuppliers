@@ -1,0 +1,144 @@
+html{
+    overflow-x: hidden;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Georgia, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    max-width: 100%;
+    font-size: 18px;
+}
+.about_us{
+    font-size: 18px;
+}
+*{
+    box-sizing: inherit;
+}
+about_us{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+#static_image{
+    width: 100%;
+    height: 400px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: black solid;
+    border-width: 0.6em;
+}
+.column img{
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+}
+.column p{
+    text-align:inherit
+}
+.column{
+    column-count: 2;
+}
+p{
+  margin:10px;
+}
+header{
+    text-align: end;
+    height: 60px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+
+head{
+    margin-top: 0px;
+    padding: 0px;
+}
+a:hover{
+    color: darkorange;
+
+}
+a:active{
+    color: lightblue;
+}
+a:visited{
+    color: red;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+#menu{
+    column-count: 2;
+    padding: auto;
+}
+#menu img{
+    height: 350px;
+    width: 350px;
+}
+footer{
+    height: 100px;
+    background-color:  antiquewhite;
+}
+footer p{
+    text-align: center;
+    padding-top: 50px;
+}
+form .input{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+.contact{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    }
+ .your-input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+ }
+ .your-date{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+ }
+ .requirements{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+*::before *::after{
+    box-sizing: inherit;
+}
+.send{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+button{
+    user-select: none;
+}
+h4{
+    color:lightblue
+}
+#core-values ol{
+    column-count: 2;
+}
+#social a img{
+    width: 50px;
+    height: 50px;
+}
